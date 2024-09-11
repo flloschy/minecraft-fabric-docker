@@ -44,3 +44,6 @@ the cloudflared process MUST run in the backgroun
 
 ## Change server version
 go to `start.sh` and replace the fabric download link your desired version. You will also need to change the name of the file!
+
+
+> This is a primary personal repository. I will not promise any update or help with issues, I might still, just no promises
