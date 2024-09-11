@@ -24,7 +24,7 @@ download mod files to `./server/mods/`
 ## connect from outside
 ### Windows
 1. Download cloudflared to your client-system 
-find the newest `cloudflared-windows-amd64.exe` from https://github.com/cloudflare/cloudflared/releases/ and install it
+find the newest `cloudflared-windows-amd64.exe` from https://github.com/cloudflare/cloudflared/releases/
 
 2. start the tunnel connection
 `C:\<PATH TO THE DOWNLOADED EXE>\cloudflared-windows-amd64.exe access tcp --hostname <DOMAIN FROM WHICH THE SERVER IS REACHABLE> --url localhost:25565`
