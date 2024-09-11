@@ -1,6 +1,8 @@
 # Docker Fabric 1.21 server
 A clean Docker based Fabric Minecraft server for 1.21 including cloudflare tunnel
 
+This will create a backup before starting the minecraft server. If there are 10 backups already, it will delete the oldest,
+
 
 ## WARNING
 YOUR WILL AUTOMATICALLY ACCEPT THE MINECRAFT EULA! BE AWARE

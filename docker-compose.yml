@@ -14,5 +14,5 @@ services:
     restart: 'unless-stopped'
   cloudflared:
     image: cloudflare/cloudflared:latest
-    command: tunnel --no-autoupdate run --token YOUR_TOKE_HERE
+    command: tunnel --no-autoupdate run --token eyJhIjoiNDJlZWI5ZGQ1Yzk3NDUxZjc1NzE2MTk5OTIwNjg2NTkiLCJ0IjoiYWIyNzQ0OTctMjA1Yi00NDg2LTgxMGYtMGE3YTk0ODJlYTg1IiwicyI6IlpHWmhOREJtWlRNdE1qUm1ZUzAwTjJaakxUZ3pNalV0WkdRMU1tUmhaakptTkRnNSJ9
     network_mode: service:fabric-minecraft-server
