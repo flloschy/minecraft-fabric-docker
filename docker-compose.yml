@@ -1,0 +1,18 @@
+
+services:
+  fabric-minecraft-server:
+    container_name: fabric-minecraft-server
+    stdin_open: true
+    tty: true
+    build: .
+    environment:
+      UID: 1000
+      GID: 1000
+    volumes:
+      - ./server:/app
+      - ./backup:/backup
+    restart: 'unless-stopped'
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token YOUR_TOKE_HERE
+    network_mode: service:fabric-minecraft-server
